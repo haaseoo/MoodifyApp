@@ -1,0 +1,10 @@
+{
+  "enabled": true,
+  "prefabPath": "/Users/anhaseo/.gradle/caches/modules-2/files-2.1/com.google.prefab/cli/2.1.0/aa32fec809c44fa531f01dcfb739b5b3304d3050/cli-2.1.0-all.jar",
+  "packages": [
+    "/Users/anhaseo/.gradle/caches/8.10.2/transforms/4d70f5cf7d5ec0dbe6a17083a478137a/transformed/react-android-0.76.5-debug/prefab",
+    "/Users/anhaseo/MoodifyApp/node_modules/react-native-reanimated/android/build/intermediates/prefab_package/debug/prefab",
+    "/Users/anhaseo/.gradle/caches/8.10.2/transforms/3757f149c2f97b128c36479a2325fe9d/transformed/hermes-android-0.76.5-debug/prefab",
+    "/Users/anhaseo/.gradle/caches/8.10.2/transforms/f58eb0422ef4aa39ff528dd0a71b1a55/transformed/fbjni-0.6.0/prefab"
+  ]
+}

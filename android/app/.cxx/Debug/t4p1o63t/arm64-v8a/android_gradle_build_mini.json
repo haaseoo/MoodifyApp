@@ -1,0 +1,67 @@
+{
+  "buildFiles": [
+    "/Users/anhaseo/MoodifyApp/node_modules/react-native-gesture-handler/android/build/generated/source/codegen/jni/CMakeLists.txt",
+    "/Users/anhaseo/MoodifyApp/node_modules/react-native-reanimated/android/build/generated/source/codegen/jni/CMakeLists.txt",
+    "/Users/anhaseo/MoodifyApp/node_modules/react-native-safe-area-context/android/src/main/jni/CMakeLists.txt",
+    "/Users/anhaseo/MoodifyApp/node_modules/react-native-screens/android/src/main/jni/CMakeLists.txt",
+    "/Users/anhaseo/MoodifyApp/node_modules/react-native/ReactAndroid/cmake-utils/default-app-setup/CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/Users/anhaseo/Library/Android/sdk/cmake/3.22.1/bin/ninja",
+      "-C",
+      "/Users/anhaseo/MoodifyApp/android/app/.cxx/Debug/t4p1o63t/arm64-v8a",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/Users/anhaseo/Library/Android/sdk/cmake/3.22.1/bin/ninja",
+    "-C",
+    "/Users/anhaseo/MoodifyApp/android/app/.cxx/Debug/t4p1o63t/arm64-v8a",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "react_codegen_rnreanimated::@8afabad14bfffa3f8b9a": {
+      "artifactName": "react_codegen_rnreanimated",
+      "abi": "arm64-v8a",
+      "runtimeFiles": []
+    },
+    "react_codegen_safeareacontext::@7984cd80db47aa7b952a": {
+      "artifactName": "react_codegen_safeareacontext",
+      "abi": "arm64-v8a",
+      "output": "/Users/anhaseo/MoodifyApp/android/app/build/intermediates/cxx/Debug/t4p1o63t/obj/arm64-v8a/libreact_codegen_safeareacontext.so",
+      "runtimeFiles": [
+        "/Users/anhaseo/.gradle/caches/8.10.2/transforms/f58eb0422ef4aa39ff528dd0a71b1a55/transformed/fbjni-0.6.0/prefab/modules/fbjni/libs/android.arm64-v8a/libfbjni.so",
+        "/Users/anhaseo/.gradle/caches/8.10.2/transforms/4d70f5cf7d5ec0dbe6a17083a478137a/transformed/react-android-0.76.5-debug/prefab/modules/jsi/libs/android.arm64-v8a/libjsi.so",
+        "/Users/anhaseo/.gradle/caches/8.10.2/transforms/4d70f5cf7d5ec0dbe6a17083a478137a/transformed/react-android-0.76.5-debug/prefab/modules/reactnative/libs/android.arm64-v8a/libreactnative.so"
+      ]
+    },
+    "react_codegen_rngesturehandler_codegen::@39f233abcd2c728bc6ec": {
+      "artifactName": "react_codegen_rngesturehandler_codegen",
+      "abi": "arm64-v8a",
+      "runtimeFiles": []
+    },
+    "react_codegen_rnscreens::@25bcbd507e98d3a854ad": {
+      "artifactName": "react_codegen_rnscreens",
+      "abi": "arm64-v8a",
+      "output": "/Users/anhaseo/MoodifyApp/android/app/build/intermediates/cxx/Debug/t4p1o63t/obj/arm64-v8a/libreact_codegen_rnscreens.so",
+      "runtimeFiles": [
+        "/Users/anhaseo/.gradle/caches/8.10.2/transforms/4d70f5cf7d5ec0dbe6a17083a478137a/transformed/react-android-0.76.5-debug/prefab/modules/reactnative/libs/android.arm64-v8a/libreactnative.so",
+        "/Users/anhaseo/.gradle/caches/8.10.2/transforms/4d70f5cf7d5ec0dbe6a17083a478137a/transformed/react-android-0.76.5-debug/prefab/modules/jsi/libs/android.arm64-v8a/libjsi.so",
+        "/Users/anhaseo/.gradle/caches/8.10.2/transforms/f58eb0422ef4aa39ff528dd0a71b1a55/transformed/fbjni-0.6.0/prefab/modules/fbjni/libs/android.arm64-v8a/libfbjni.so"
+      ]
+    },
+    "appmodules::@6890427a1f51a3e7e1df": {
+      "artifactName": "appmodules",
+      "abi": "arm64-v8a",
+      "output": "/Users/anhaseo/MoodifyApp/android/app/build/intermediates/cxx/Debug/t4p1o63t/obj/arm64-v8a/libappmodules.so",
+      "runtimeFiles": [
+        "/Users/anhaseo/MoodifyApp/android/app/build/intermediates/cxx/Debug/t4p1o63t/obj/arm64-v8a/libreact_codegen_safeareacontext.so",
+        "/Users/anhaseo/MoodifyApp/android/app/build/intermediates/cxx/Debug/t4p1o63t/obj/arm64-v8a/libreact_codegen_rnscreens.so",
+        "/Users/anhaseo/.gradle/caches/8.10.2/transforms/f58eb0422ef4aa39ff528dd0a71b1a55/transformed/fbjni-0.6.0/prefab/modules/fbjni/libs/android.arm64-v8a/libfbjni.so",
+        "/Users/anhaseo/.gradle/caches/8.10.2/transforms/4d70f5cf7d5ec0dbe6a17083a478137a/transformed/react-android-0.76.5-debug/prefab/modules/jsi/libs/android.arm64-v8a/libjsi.so",
+        "/Users/anhaseo/.gradle/caches/8.10.2/transforms/4d70f5cf7d5ec0dbe6a17083a478137a/transformed/react-android-0.76.5-debug/prefab/modules/reactnative/libs/android.arm64-v8a/libreactnative.so"
+      ]
+    }
+  }
+}
